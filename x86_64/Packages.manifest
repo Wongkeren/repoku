@@ -1,0 +1,831 @@
+Package: adbyby
+Version: 2.7-20200315
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/adbyby
+SourceName: adbyby
+Section: net
+SourceDateEpoch: 1646110396
+Architecture: x86_64
+Installed-Size: 401264
+Filename: adbyby_2.7-20200315_x86_64.ipk
+Size: 402079
+SHA256sum: e6f0d1cb1587a80c3b69b7063dbf77974041382f14f045693973d2d795442871
+Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-atinout-mod/atinout
+SourceName: atinout
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660737508
+Maintainer: Adrian Guenter <a@gntr.me>
+Architecture: x86_64
+Installed-Size: 3132
+Filename: atinout_0.9.1_x86_64.ipk
+Size: 3958
+SHA256sum: 545d3b6af33a5a7df361be2b33728c7a7f6bc35670462e5e84ebef95a3f75363
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: automount
+Version: 1-38
+Depends: libc, block-mount, kmod-fs-exfat, kmod-fs-ext4, kmod-fs-vfat, libblkid1, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas
+Source: /home/neo/wrt-project/custom-feeds/automount
+SourceName: automount
+Section: opt
+SourceDateEpoch: 1646110396
+Maintainer: Lean
+Architecture: x86_64
+Installed-Size: 719
+Filename: automount_1-38_x86_64.ipk
+Size: 1493
+SHA256sum: 69b46b237c4ca8cb34583ec1e180ace0e1c1d99a8a45bc70e148b211ab0e245e
+Description:  A usb autoconfig hotplug script.
+
+Package: badvpn
+Version: 1.999.130-1
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl1.1, coreutils, coreutils-stdbuf, openssl-util
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/badvpn
+SourceName: badvpn
+Section: net
+SourceDateEpoch: 1660289368
+Maintainer: helmiau
+Architecture: x86_64
+Installed-Size: 135708
+Filename: badvpn_1.999.130-1_x86_64.ipk
+Size: 136573
+SHA256sum: 5ac17bbd38ed8359aa75bdaf9a31567e6cde7322e7d09ecc4fbc1ee4d9074945
+Description:  BadVPN
+
+Package: brook
+Version: 20220707-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/brook
+SourceName: brook
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 4201716
+Filename: brook_20220707-1_x86_64.ipk
+Size: 4195037
+SHA256sum: a40859a466de61f4b97f7d4a944865cd3cc5211b5c6916b1355135d0e5393408
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: pexcn <i@pexcn.me>
+Architecture: x86_64
+Installed-Size: 18498
+Filename: chinadns-ng_1.0-beta.25-1_x86_64.ipk
+Size: 19304
+SHA256sum: efe1bd1981d7013ad38bc944256b673caa818476e430e313e8db4cbf46b58a75
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: corkscrew
+Version: 2.0-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/corkscrew
+SourceName: corkscrew
+Section: net
+SourceDateEpoch: 1660289368
+Maintainer: Galih Prastowo Aji <galih.prastowo@gmail.com>
+Architecture: x86_64
+Installed-Size: 3059
+Filename: corkscrew_2.0-1_x86_64.ipk
+Size: 3835
+SHA256sum: 1fb85f38080bcc0f01f28f6c057537691e0b3d91244a59a2c4cccc76a3a3a69a
+Description:  Tunneling SSH through HTTP proxies.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: ghostmaker
+Architecture: x86_64
+Installed-Size: 10472
+Filename: dns2socks_2.1-2_x86_64.ipk
+Size: 11265
+SHA256sum: 89e547291fe366496796f81f42a1b93401b2f059b52d3714165e6ae2a23c465b
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 11712
+Filename: dns2tcp_1.1.0-1_x86_64.ipk
+Size: 12525
+SHA256sum: 6d4cb31e102e41a2b413468f15029d5e6d4edcbda0986be531225726ee37fdbb
+Description:  utility to convert dns query from udp to tcp
+
+Package: dnsforwarder
+Version: 6.1.15-11
+Depends: libc, coreutils, coreutils-base64, dnsmasq-full, libpthread, wget-ssl
+Source: /home/neo/wrt-project/custom-feeds/dnsforwarder
+SourceName: dnsforwarder
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: Dennis <openwrt@tossp.com>
+Architecture: x86_64
+Installed-Size: 85987
+Filename: dnsforwarder_6.1.15-11_x86_64.ipk
+Size: 86904
+SHA256sum: 3d1e723c859594bbdeb4024c2f09131aa9d5afe779a9f8ea96f4c3c8b8d68d4e
+Description:  Forwarding queries to customized domains (and their subdomains) to specified servers
+ over a specified protocol (UDP or TCP). non-standard ports are supported.
+
+Package: dnsproxy
+Version: 0.43.1-220216.73750
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/dnsproxy
+SourceName: dnsproxy
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Require-User: dnsproxy=411:dnsproxy=411
+SourceDateEpoch: 1646110396
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 3568226
+Filename: dnsproxy_0.43.1-220216.73750_x86_64.ipk
+Size: 3562586
+SHA256sum: d2b965ca38b3641817d5b223b169124682313e495500a8b743da97f1bd62e2ee
+Description:  A simple DNS proxy server that supports all existing DNS protocols including
+ DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC.Moreover, it can
+ work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC server.
+
+Package: hysteria
+Version: 1.2.0-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 6608736
+Filename: hysteria_1.2.0-1_x86_64.ipk
+Size: 6592920
+SHA256sum: 1a25e5581a2881dbc4116bf7ac0074302eb8059f4276f643c02f9bba38ba5b60
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1660497736
+Architecture: x86_64
+Installed-Size: 27560
+Filename: ipt2socks_1.1.3-3_x86_64.ipk
+Size: 28341
+SHA256sum: 0353e09478a67c662ff7ba64614bba8ea204008cb7c7a6a9285f8bae27d959de
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+Source: /home/neo/wrt-project/custom-feeds/openwrt-bypass/lua-maxminddb
+SourceName: lua-maxminddb
+License: MIT
+Section: lang
+SourceDateEpoch: 1660240616
+Maintainer: fabled
+Architecture: x86_64
+Installed-Size: 2481
+Filename: lua-maxminddb_0.2-1_x86_64.ipk
+Size: 3224
+SHA256sum: b1445548379d60f62f74b99280c03aa7cf1514c5b890f9dc52ba90b929cd68f2
+Description:  libmaxminddb bindings for lua
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: lean
+Architecture: x86_64
+Installed-Size: 5452
+Filename: microsocks_1.0.3-1_x86_64.ipk
+Size: 6296
+SHA256sum: a27936dc1d3a7db7d02fac1d1241c776657463e8b65c47f246a7a3e45808cdc8
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: mrtg
+Version: 2.17.7-2
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Source: /home/neo/wrt-project/custom-feeds/mrtg-openwrt
+SourceName: mrtg
+Section: net
+SourceDateEpoch: 1608116253
+Architecture: x86_64
+Installed-Size: 547227
+Filename: mrtg_2.17.7-2_x86_64.ipk
+Size: 547957
+SHA256sum: 13aaaeb308361bdbae724566eb9c32faaa8c0acb6e1c09c65e9a6430abdf9edc
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
+Package: naiveproxy
+Version: 104.0.5112.79-2-1
+Depends: libc, libatomic1
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 2724516
+Filename: naiveproxy_104.0.5112.79-2-1_x86_64.ipk
+Size: 2722938
+SHA256sum: 8bfc58d4bdd3fec130abd7b9746fe394340ca5f865925d635901f066c55da2b8
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+Source: /home/neo/wrt-project/custom-feeds/nload
+SourceName: nload
+License: LICENSE
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: x86_64
+Installed-Size: 39573
+Filename: nload_0.7.4-1_x86_64.ipk
+Size: 40539
+SHA256sum: ea6ed2cd96f621e968933203af8cb5cf00f518e58ae855d89294b6a2e5642aee
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1660497736
+Architecture: x86_64
+Installed-Size: 90985
+Filename: pdnsd-alt_1.2.9b-par-3_x86_64.ipk
+Size: 92058
+SHA256sum: 3ab2d4917bdf394d2d497a76a9a2df986bdb5baaa6677f55ce72e01d3fddfd60
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: pingcontrol
+Version: 1-0
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/pingcontrol
+SourceName: pingcontrol
+Section: utils
+SourceDateEpoch: 1646110396
+Architecture: x86_64
+Installed-Size: 1554
+Filename: pingcontrol_1-0_x86_64.ipk
+Size: 2320
+SHA256sum: 18524b1dd25ffe3be54f54523e6c1c71b45557aba6938b1f34e706eb512f4e8e
+Description:  This package contains a utility for managing the interface using ping requests.
+
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent2-7, libopenssl1.1
+Source: /home/neo/wrt-project/custom-feeds/redsocks2
+SourceName: redsocks2
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: semigodking <semigodking@gmail.com>
+Architecture: x86_64
+Installed-Size: 55655
+Filename: redsocks2_0.67-4_x86_64.ipk
+Size: 56588
+SHA256sum: 7af340bcd834ffa90cd6201b8aa630fa234da86fab752f7deac71ebae626bd45
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: sagernet-core
+Version: 5.0.17-2022-07-30-26e36b1c-1
+Depends: libc, ca-bundle
+Conflicts: v2ray-core, xray-core
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/sagernet-core
+SourceName: sagernet-core
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 9764020
+Filename: sagernet-core_5.0.17-2022-07-30-26e36b1c-1_x86_64.ipk
+Size: 9738839
+SHA256sum: 0ccd542d6eb44635bff0b598f30a6cbd4208bbc81ff7bfe058bb5e9570b80717
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This is a v2ray-core fork for SagerNet.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.14.3-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
+SourceName: shadowsocks-rust-sslocal
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 2807983
+Filename: shadowsocks-rust-sslocal_1.14.3-1_x86_64.ipk
+Size: 2799960
+SHA256sum: 9702429f69dec7d855b863511f9c86c033eab9a99bc53398d36ec5632d0c6f6e
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.14.3-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
+SourceName: shadowsocks-rust-ssmanager
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 1930583
+Filename: shadowsocks-rust-ssmanager_1.14.3-1_x86_64.ipk
+Size: 1924119
+SHA256sum: f54cb6a067dc3c3208aa41975aa927134dbd54972751a62b13a31db4116173b0
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.14.3-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
+SourceName: shadowsocks-rust-ssserver
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 1869754
+Filename: shadowsocks-rust-ssserver_1.14.3-1_x86_64.ipk
+Size: 1862293
+SHA256sum: 68518bab3946bbd05b894e80695a4d12aaae642b9bf81326fcd7d60eed395a6a
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.14.3-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
+SourceName: shadowsocks-rust-ssservice
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 2979428
+Filename: shadowsocks-rust-ssservice_1.14.3-1_x86_64.ipk
+Size: 2970941
+SHA256sum: 4efa1fa36b80f453419ffd4c6ad1862822a71540c72bc594cb66c5e3403bdd15
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.14.3-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
+SourceName: shadowsocks-rust-ssurl
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 657586
+Filename: shadowsocks-rust-ssurl_1.14.3-1_x86_64.ipk
+Size: 656613
+SHA256sum: 5904a8a95206cb2d50682ae0604e80e058e35a045fe115ba838b0bb9d99782a3
+Description:  shadowsocks-rust ssurl
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Architecture: x86_64
+Installed-Size: 2352
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_x86_64.ipk
+Size: 3120
+SHA256sum: 7037c6998f87cdd5889948ecc2d117d349618b4c493ed65ab10f0ddd6aa295af
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Architecture: x86_64
+Installed-Size: 61681
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_x86_64.ipk
+Size: 62594
+SHA256sum: 5eda29dcc7495ad5b979ae496d56654a98dae8bf7781bf9c48ff78d6b2ebdb46
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Architecture: x86_64
+Installed-Size: 2235
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_x86_64.ipk
+Size: 3031
+SHA256sum: bf23fc2dfe3ae23265f8df731a0c9eceaa520be6e5f126de8c63d77f168fcc28
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Architecture: x86_64
+Installed-Size: 55616
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_x86_64.ipk
+Size: 56470
+SHA256sum: c26e7ef2d9eb973c79e02eff20c948f0c9466e7f44ecb397ebdd131a92256e6d
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Architecture: x86_64
+Installed-Size: 65294
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_x86_64.ipk
+Size: 66188
+SHA256sum: af575c1350da9afc96c50e4ee065fc76316b882871c3c15dae31a7b7177deed5
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: x86_64
+Installed-Size: 32437
+Filename: simple-obfs-server_0.0.5-1_x86_64.ipk
+Size: 33332
+SHA256sum: ce9a3ba6e312bef37bb36c80cd3918d1c2defb0b05aa1032111c0f7cef42f0f8
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: x86_64
+Installed-Size: 30218
+Filename: simple-obfs_0.0.5-1_x86_64.ipk
+Size: 31026
+SHA256sum: 02ebc23071eb5968c771aa84bf8bbff444e2dbabb86bfc9304336be0916df35e
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: sms-tool
+Version: 2022-03-21-f07699ab-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-sms-tool/sms-tool
+SourceName: sms-tool
+Section: utils
+SourceDateEpoch: 1660737278
+Architecture: x86_64
+Installed-Size: 8053
+Filename: sms-tool_2022-03-21-f07699ab-1_x86_64.ipk
+Size: 8808
+SHA256sum: 2a0d311d24e1392f68d34ec9e5ddf8fbf2402f48bea32143063722bfcea14a9c
+Description:  SMS Tool for 3G/4G modem
+
+Package: speedtest-web
+Version: 1.1.5
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/speedtest-web
+SourceName: speedtest-web
+License: LGPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1638428377
+Architecture: x86_64
+Installed-Size: 3740811
+Filename: speedtest-web_1.1.5_x86_64.ipk
+Size: 3742253
+SHA256sum: 4945fd613f33278adcb5e4ee6d7c8a6975cc415134ee2b17c245b35b512fb47f
+Description:  speedtest-web is a Openwrt package for speedtest-go, a Go backend for LibreSpeed
+
+Package: speedtestpp
+Version: 1.14-220216.73750
+Depends: libc, libcurl4, libxml2, libopenssl1.1, libstdcpp6
+Conflicts: python3-speedtest-cli
+Source: /home/neo/wrt-project/custom-feeds/speedtestpp
+SourceName: speedtestpp
+License: MIT
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: Oskari Rauta <oskari.rauta@gmail.com>
+Architecture: x86_64
+Installed-Size: 25967
+Filename: speedtestpp_1.14-220216.73750_x86_64.ipk
+Size: 26762
+SHA256sum: 46fe00e60e541030407e3f7a2375f031be4511e3bdd248a443faa8dcd985e642
+Description:  Yet another unofficial speedtest.net client cli interface
+
+Package: ssocks
+Version: 0.0.14-3
+Depends: libc, libopenssl1.1
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/ssocks
+SourceName: ssocks
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 14671
+Filename: ssocks_0.0.14-3_x86_64.ipk
+Size: 15548
+SHA256sum: e06928e3ddb1f115f9820a22b1e1f2fc6bc03d86192206cd407843f56e45f1fd
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-3
+Depends: libc, libopenssl1.1
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/ssocks
+SourceName: ssocksd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 14839
+Filename: ssocksd_0.0.14-3_x86_64.ipk
+Size: 15724
+SHA256sum: b8e4f4bd254a34b115174be95cee2c2e99d61d9f79cfb3a53712154fa3e517d6
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: subconverter
+Version: 0.7.0-2021-09-20-fc641444-1
+Depends: libc, libpthread, libstdcpp6, libevent2-7, libyaml-cpp0.6, libpcre2, libcurl4, zlib
+Source: /home/neo/wrt-project/custom-feeds/openwrt-subconverter/subconverter
+SourceName: subconverter
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1632275416
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 1572180
+Filename: subconverter_0.7.0-2021-09-20-fc641444-1_x86_64.ipk
+Size: 1572980
+SHA256sum: 40655940074f9603a55f3ac233bb5b81809cdedf14dc942cda09d5a5c797071e
+Description:  Utility to convert between various proxy subscription formats.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1660497736
+Architecture: x86_64
+Installed-Size: 3699
+Filename: tcping_0.3-1_x86_64.ipk
+Size: 4456
+SHA256sum: d7bfdaed967f9b49b0b8837dabdcef03e2f708e02a346943c79af60a4522f20d
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-go
+Version: 0.10.6-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/trojan-go
+SourceName: trojan-go
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 5221524
+Filename: trojan-go_0.10.6-1_x86_64.ipk
+Size: 5211908
+SHA256sum: dd11908ceb513419a9e2b154eb5ffa348bc71277d2def1ef8ec5b507b8d20a46
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Trojan-Plus-Group
+Architecture: x86_64
+Installed-Size: 392763
+Filename: trojan-plus_10.0.3-2_x86_64.ipk
+Size: 393600
+SHA256sum: 3ed9017747e5bcca3f75e2b2983014b7bb57217a03734ff0f15a887e13325f17
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: GreaterFire
+Architecture: x86_64
+Installed-Size: 282825
+Filename: trojan_1.16.0-2_x86_64.ipk
+Size: 283741
+SHA256sum: 950b8466af383b98ddde5a9cfb9d6f36b3430a9f4c0797249bdadd318f88189f
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: v2ray-core
+Version: 5.0.7-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/v2ray-core
+SourceName: v2ray-core
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 8428677
+Filename: v2ray-core_5.0.7-1_x86_64.ipk
+Size: 8409052
+SHA256sum: e856ba5399c6f0d3555da62194269c06a83048a803a689309eaf1e1018867ee6
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-plugin
+Version: 5.0.7-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: x86_64
+Installed-Size: 4989365
+Filename: v2ray-plugin_5.0.7-1_x86_64.ipk
+Size: 4979974
+SHA256sum: 94a687ad1fad4cebcbf4975a6caf9417ba3d0471148e442afbe3687bcda095c9
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: v2raya
+Version: 1.5.9.1698.1-1
+Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
+Source: /home/neo/wrt-project/custom-feeds/v2raya
+SourceName: v2raya
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 9604123
+Filename: v2raya_1.5.9.1698.1-1_x86_64.ipk
+Size: 9572923
+SHA256sum: 87d64e5c393e8d2bde716bcc2c652e6d9aa4c7e7877040729bbe5571843fc6ae
+Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
+ compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+Source: /home/neo/wrt-project/custom-feeds/vlmcsd
+SourceName: vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: fuyumi <280604399@qq.com>
+Architecture: x86_64
+Installed-Size: 22727
+Filename: vlmcsd_svn1113-3_x86_64.ipk
+Size: 23455
+SHA256sum: df00df31c5adfbbef069b8141c657ac21c872113c8a54278e853887779424c95
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: xray-plugin
+Version: 1.5.9-1
+Depends: libc, ca-bundle
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660497736
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 5833926
+Filename: xray-plugin_1.5.9-1_x86_64.ipk
+Size: 5821584
+SHA256sum: 50befe270f475cd111dcf090b0de0f24d7f7f7356ffac7cf8580566a0bb96976
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+
