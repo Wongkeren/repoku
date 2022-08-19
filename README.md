@@ -20,8 +20,10 @@ Repository ini mendukung arsitektur dibawah ini:
 aarch64_cortex-a53
 aarch64_cortex-a72
 aarch64_generic
+arm_arm1176jzf-s_vfp
 arm_cortex-a7_neon-vfpv4
 i386_pentium4
+mips_24kc
 mipsel_24kc
 x86_64
 ```
